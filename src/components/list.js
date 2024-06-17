@@ -12,7 +12,7 @@ const List = () => {
         await deleteAllData(); // Call the function to delete all tasks
     };
     return (
-        <div className=" bg-white my-10 w-96 h-96 rounded-md  absolute top-56  shadow-inner">
+        <div className=" bg-white my-10 w-96 h-96 rounded-md  absolute shadow-inner mt-20 top-60 ">
             <div className="flex text-zinc-600 py-1 pl-3 h-8 mb-3">
                 <p className="">{data.length} take left</p>
                 <button className="ml-auto pr-3 hover:text-blue-400" onClick={handleDeleteAll}>Clear all the task</button>
